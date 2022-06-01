@@ -9,11 +9,13 @@ The study data is public at
 
 
 ## Implementation Code
+
+The experiment workflow is controlled via the Makefile. The input and output of each step can be referred to the Makefile
+
 - `run_selecting_features.py`: Feature selection
 - `run_anomaly_detection_invo.py`: Anomaly detection based on the useful features
 - `run_localization_association_rule_mining_20210516.py`: Root-cause service ocalization
-
-The experiment workflow is controlled via the Makefile. The input and output of each step can be referred to the Makefile
+- `prepare_train_file_tmp.py` is used to split the dataset into train and test datasets. Note that this step is not included in the Makefile.
 
 
 [Presentation Video](https://www.bilibili.com/video/BV14b4y1C7rQ/)
