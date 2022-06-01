@@ -13,6 +13,8 @@ The study data is public at
 - `run_anomaly_detection_invo.py`: Anomaly detection based on the useful features
 - `run_localization_association_rule_mining_20210516.py`: Root-cause service ocalization
 
+The experiment workflow is controlled via the Makefile. The input and output of each step can be referred to the Makefile
+
 
 [Presentation Video](https://www.bilibili.com/video/BV14b4y1C7rQ/)
 ## Cite
